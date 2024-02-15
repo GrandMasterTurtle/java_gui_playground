@@ -8,12 +8,6 @@ public class TeamPanel extends JPanel {
 
 
     public TeamPanel() {
-
-        ImageIcon imageIcon = new ImageIcon("3135715.png");
-        Image image = imageIcon.getImage(); // transform it
-        Image newimg = image.getScaledInstance(240, 240,  java.awt.Image.SCALE_SMOOTH); // scale it the smooth way
-        imageIcon = new ImageIcon(newimg);  // transform it back
-
         memberLabels = new JLabel[TEAM_SIZE];
 
         // create your own label that have an image and your name as text.
